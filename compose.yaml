@@ -12,7 +12,7 @@ services:
     webapp:
         image: nginx
         volumes:
-            - ./index.html:/usr/share/html/index.html
+            - ./index.html:/usr/share/nginx/html/index.html
         ports:
             - "80:80"
             - "443:443"
